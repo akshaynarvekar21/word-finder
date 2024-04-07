@@ -30,10 +30,10 @@ describe('findWords', () => {
         expect(res).toEqual(['go']);
     });
 
-    it('findWord correctly returns for one word dict', () => {
-        const res = findWords('good', ['go']);
+    it('findWord correctly returns for repeated word dict', () => {
+        const res = findWords('good', ['go', 'od', 'od']);
 
-        expect(res).toEqual(['go']);
+        expect(res).toEqual(['go', 'od', 'od']);
     });
 
     it('findWord correctly returns for no match in the dict', () => {
