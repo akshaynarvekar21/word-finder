@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/word-finder/static/css/main.b2d36797.css",
+    "main.js": "/word-finder/static/js/main.b352dc45.js",
+    "index.html": "/word-finder/index.html",
+    "main.b2d36797.css.map": "/word-finder/static/css/main.b2d36797.css.map",
+    "main.b352dc45.js.map": "/word-finder/static/js/main.b352dc45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2d36797.css",
+    "static/js/main.b352dc45.js"
+  ]
+}
