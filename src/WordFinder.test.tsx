@@ -1,9 +1,8 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import WordFinder from './WordFinder';
 
 test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+  render(<WordFinder />);
+  const linkElement = screen.getByText(/Word Finder/i);
   expect(linkElement).toBeInTheDocument();
 });
